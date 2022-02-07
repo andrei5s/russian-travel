@@ -1,0 +1,35 @@
+.lead__title {
+    width: 720px;
+    height: 200px;
+    margin: 56px auto 0 280px;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 100px;
+    text-align: center;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__title {
+        margin: 48px auto 0 152px;
+        width: calc(100vw - 40%);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__title {
+        width: calc(100vw - 12%);
+        margin: 48px 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__title {
+        width: calc(100vw - 15%);
+        height: 88px;
+        margin: 48px 0 0 16px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

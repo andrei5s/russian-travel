@@ -1,0 +1,15 @@
+.footer__copyright {
+    min-width: 186px;
+    min-height: 16px;
+    margin: 0 0 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        min-height: 14px;
+    }
+}

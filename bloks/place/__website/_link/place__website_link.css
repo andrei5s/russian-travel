@@ -1,0 +1,30 @@
+.place__website_link {
+    width: 456px;
+    height: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #ffffff;
+    margin: 0;
+    align-self: end;
+}
+
+@media screen and (max-width: 1023px) {
+    .place__website_link {
+        width: 352px;
+        height: 22px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__website_link {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 288px;
+        height: 22px;
+        margin: 0;
+    }
+}
