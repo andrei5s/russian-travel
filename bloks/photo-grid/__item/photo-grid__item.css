@@ -21,9 +21,7 @@
 
 @media screen and (max-width: 767px) {
     .photo-grid__item {
-        min-width: 288px;
-        width: calc(100% - 5%);
-        min-height: 216px;
-        height: calc(100% - 50%);
+        width: calc(100% - 16px);
+        height: 100%;
     }
 }

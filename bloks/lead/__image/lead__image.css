@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1279px) {
     .lead__image {
-        width: calc(100vw - 13%);
+        width: calc(100vw - 12%);
         height: calc(100vh - 50%);
         margin: 56px auto 0 48px;
     }
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1023px) {
     .lead__image {
-        width: calc(100vw - 3%);
+        width: 100%;
         height: calc(100vh - 50%);
         margin: 56px auto 0 0;
     }
@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 767px) {
     .lead__image {
-        width: calc(100vw - 5%);
+        width: calc(100% - 2px);
         height: calc(100vh - 50%);
         margin: 40px auto 0 2px;
     }

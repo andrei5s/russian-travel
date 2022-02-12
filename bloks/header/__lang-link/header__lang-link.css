@@ -6,7 +6,6 @@
     color: #ffffff;
     margin: 46px 20px 0 0;
     max-width: 30px;
-    height: 28px;
     text-decoration: none;
     box-sizing: border-box;
 }
@@ -18,7 +17,6 @@
 @media screen and (max-width: 767px) {
     .header__lang-link {
         max-width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
         margin-right: 16px;
