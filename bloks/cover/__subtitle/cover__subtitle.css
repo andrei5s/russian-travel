@@ -9,16 +9,8 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1279px) {
-    .cover__subtitle {
-        width: 360px;
-        margin: 32px auto 0 auto;
-    }
-}
-
 @media screen and (max-width: 1023px) {
     .cover__subtitle {
-        width: 360px;
         margin: 32px 0;
     }
 }

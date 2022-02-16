@@ -4,8 +4,7 @@
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
-    width: 640px;
-    min-height: 72px;
+    width: calc(100vw - 60%);
     text-align: center;
     color: #ffffff;
     box-sizing: border-box;
@@ -14,14 +13,14 @@
 @media screen and (max-width: 1279px) {
     .lead__subtitle {
         margin-left: 192px;
-        width: calc(100vw - 45%);
+        width: calc(100vw - 40%);
     }
 }
 
 @media screen and (max-width: 1023px) {
     .lead__subtitle {
         margin-left: 64px;
-        width: calc(100vw - 15%);
+        width: calc(100% - 128px);
     }
 }
 
@@ -29,7 +28,7 @@
     .lead__subtitle {
         margin-top: 16px;
         margin-left: 16px;
-        width: calc(100vw - 15%);
+        width: calc(100% - 32px);
         font-size: 16px;
         line-height: 20px;
     }

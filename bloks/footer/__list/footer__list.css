@@ -3,13 +3,13 @@
     flex-direction: row;
     list-style: none;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 767px) {
     .footer__list {
         display: grid;
         grid-row-gap: 32px;
-        margin: 0;
-        padding: 0;
     }
 }
