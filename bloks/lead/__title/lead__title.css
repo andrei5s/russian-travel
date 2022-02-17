@@ -1,6 +1,6 @@
 .lead__title {
-    width: calc(100vw - 60%);
-    margin: 56px auto 0 280px;
+    width: 720px;
+    margin: 56px auto 0 auto;
     font-size: 96px;
     font-weight: 900;
     line-height: 100px;
@@ -11,21 +11,21 @@
 
 @media screen and (max-width: 1279px) {
     .lead__title {
-        margin: 48px auto 0 152px;
-        width: calc(100vw - 35%);
+        margin: 48px auto 0 auto;
+        width: calc(100% - 208px);
     }
 }
 
 @media screen and (max-width: 1023px) {
     .lead__title {
-        width: calc(100vw - 12%);
+        width: calc(100% - 48px);
         margin: 48px 0 0 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .lead__title {
-        width: calc(100vw - 15%);
+        width: calc(100% - 32px);
         margin: 48px 0 0 16px;
         font-size: 40px;
         line-height: 44px;
